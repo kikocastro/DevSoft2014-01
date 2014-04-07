@@ -1,0 +1,23 @@
+Frederico Castro	
+
+Classe: Veiculo
+Atributos: numero, placa, manutencao 
+Métodos: saida, chegada, abastece
+
+Classe: Ítem
+Atributos: modelo, numero, preco, validade
+Métodos: adiciona_item, remove_item, altera_propriedades
+
+Classe: Estoque
+Atributos: data_de_chegada, validade
+Métodos: insere_lote
+
+Classe: Customer
+Atributos: nome, cnpj, endereco, telefone, email, pedido
+Métodos: altera_dados, adiciona_pedido
+
+Classe: Motorista
+Atributos: nome, cpf, telefone, endereco, email, carteira_de_trabalho, nascimento, horarios_De_trabalho
+Métodos: altera dados, insere_motorista, remove_motorista, saida_para_entrega, retorno_de_entrega
+
+

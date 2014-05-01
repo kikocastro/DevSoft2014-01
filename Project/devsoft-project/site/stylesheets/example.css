@@ -1,0 +1,83 @@
+header {
+  font: 'Merriweather Sans', Helvetica, sans-serif;
+  margin-bottom: 16px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+
+}
+header h1 {
+  /* Default color format: RGB in hexa (RRGGBB); */
+  color: #6176AC;
+  font-size: 30px;
+  font-weight:bold;
+}
+
+header h2 {
+  /* The RGBA format allows us to specify a transparency level */
+  color: rgba(35, 69, 103, 0.4);
+  font-size: 18px;
+
+}
+header h3 {
+  /* The RGBA format allows us to specify a transparency level */
+  color: rgba(35, 69, 103, 0.4);
+  font-size: 12px;
+}
+.container {
+  width: 80%;
+  max-width: 1260px;
+  /*min-width: 780px;*/
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.welcome {
+  color: rgba(223, 32, 78, 1);
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 25px;
+}
+
+.div-left{
+  float:left;
+  padding-left:10px;
+}
+.div-right{
+  float:right;
+  padding-right:10px;
+}
+.search-field {
+  width: 250px;
+}
+.button {
+  border-radius: 20px;
+}
+#Checkboxlist1 label {
+  font-size: 11px;
+}
+#Checkboxlist1 tr{
+  float:left;
+  margin-right:10px;
+  margin-left:3px;
+}
+
+#main-content {
+  text-align: left;
+}
+
+#footer-content {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  height: 30px;
+  background-color: #03A2B8;  
+}
+
+#footer-content {
+  color: #ffffff;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 14px;
+}
+
